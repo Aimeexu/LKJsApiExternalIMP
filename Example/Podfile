@@ -1,3 +1,6 @@
+source 'https://github.com/Aimeexu/JSpec.git' 
+
+
 use_frameworks!
 
 platform :ios, '10.0'
@@ -7,7 +10,7 @@ target 'LKJsApiExternalIMP_Example' do
 
   target 'LKJsApiExternalIMP_Tests' do
     inherit! :search_paths
-
+   
     
   end
 end

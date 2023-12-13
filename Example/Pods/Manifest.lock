@@ -1,16 +1,23 @@
 PODS:
-  - LKJsApiExternalIMP (0.1.0)
+  - LKJsApiExternal (0.1.0)
+  - LKJsApiExternalIMP (0.1.0):
+    - LKJsApiExternal
 
 DEPENDENCIES:
   - LKJsApiExternalIMP (from `../`)
+
+SPEC REPOS:
+  https://github.com/Aimeexu/JSpec.git:
+    - LKJsApiExternal
 
 EXTERNAL SOURCES:
   LKJsApiExternalIMP:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LKJsApiExternalIMP: ea09d3443d7f24dd72308a35871529ba71af77f0
+  LKJsApiExternal: a7968ccc10f5ca68fe29f8493d1bfef27cf80962
+  LKJsApiExternalIMP: f8817f95f7a907fca8c9ef50ce217f02f93cc802
 
-PODFILE CHECKSUM: f3e7dfdb7e23e70e413c350e4a64951b8ed39f33
+PODFILE CHECKSUM: 37d7c40c5c265315706c5e524e962a5a342c7898
 
 COCOAPODS: 1.11.3

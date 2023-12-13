@@ -10,8 +10,3 @@
 #endif
 #endif
 
-#import "LKJsApiExternalIMP.h"
-
-FOUNDATION_EXPORT double LKJsApiExternalIMPVersionNumber;
-FOUNDATION_EXPORT const unsigned char LKJsApiExternalIMPVersionString[];
-

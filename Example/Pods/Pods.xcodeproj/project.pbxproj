@@ -7,85 +7,142 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04860E5BEA15D35B9440417675F99357 /* Pods-LKJsApiExternalIMP_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA9A95CE1761D1CBA31A0A92634805 /* Pods-LKJsApiExternalIMP_Example-dummy.m */; };
+		0D249BDBBA39AA64FCCB2961F40B7589 /* LKJsApiExternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E3D39F5677907F527AB68FF6462159 /* LKJsApiExternal.m */; };
+		0E08CEA26F43C5E8EF5B2DC4FC637C85 /* JSApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF6D357F5F4DA8290A0D57E0D708A0 /* JSApi.m */; };
 		0F8DB2379EBD0D8A3CE055CE4C30346B /* Pods-LKJsApiExternalIMP_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F72778B6563914982E5B4C7E5F9E5B7 /* Pods-LKJsApiExternalIMP_Tests-dummy.m */; };
-		186AAFA350F47613E676B5EA14C9BD7D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF585E875266C6A0DA1933D00F1F9A /* ReplaceMe.m */; };
+		201AFD6A57E2F2F84CF4C5F761287DC1 /* DWKwebView+AccessoryHiding.h in Headers */ = {isa = PBXBuildFile; fileRef = DDAADBBC66576ADF584E21BC53F8F441 /* DWKwebView+AccessoryHiding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23E81CF671FD655E0DE931540C8180DF /* InternalApis.h in Headers */ = {isa = PBXBuildFile; fileRef = 950E9A139D11ECF5B3A5794ECD871EF0 /* InternalApis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27AD2C0099BCC6A6D31EF09AA827DED2 /* DWKwebView+AccessoryHiding.m in Sources */ = {isa = PBXBuildFile; fileRef = BA346130FB0E58B4A4F0CF9602C25F6E /* DWKwebView+AccessoryHiding.m */; };
+		307C8CD3EBFA0755049E9AF00BE4981B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		33424A09E8F4E14C731D24EF80123FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		60DCF9B0A8FA1ED202B2EE702CFF2366 /* Pods-LKJsApiExternalIMP_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7601B8E08BE75809D567823B495EDFBD /* Pods-LKJsApiExternalIMP_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41074A28CC57171299A997F68E482D23 /* JSApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 255F139347710CB4AF073FE4828258E3 /* JSApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D51935ADE61B20C339D0C4C9ABCAFD2 /* LKJsApiExternalIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2562D6678A909C782D19D44DAA7C5E /* LKJsApiExternalIMP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D55DCE23B5CED6A035427AE716325E3 /* ZHWKProcessPoolFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0035BB4419AA38CBD7661272E8A7D7 /* ZHWKProcessPoolFactory.m */; };
+		4FF1A4C0D4C822E3BC0F464F5C6A8D60 /* dsbridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D594595F9B723150CF6A9EEAF8E5364 /* dsbridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		530DDB5E5BFD07E10BDEF4FC77F2CDA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		59BB7CCFD2431FE7008188CDB814EDA1 /* JSBUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 10116187EAD873262B65F2A54279C51A /* JSBUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D9D4DCB1DC3DC5131146F6DD938A437 /* LKJsApiExternal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD90B7F17638498A6DA0B40F62E4FF5 /* LKJsApiExternal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6622B60F1C270880700AFCBBC44B7D93 /* DWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1651ED9069B8AEDD42F9B992A05C5CEB /* DWKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A8440BA9BEB0796FA3FE6C017DAFFCA /* Pods-LKJsApiExternalIMP_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F05D3078596BA8C802E38C930DF1B449 /* Pods-LKJsApiExternalIMP_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79B9ED019B80421C1B715D6B1CF049B9 /* Pods-LKJsApiExternalIMP_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA9A95CE1761D1CBA31A0A92634805 /* Pods-LKJsApiExternalIMP_Example-dummy.m */; };
-		9A2DFD1F986F9917DA7D616438880D92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A9F0EBF15DEF82E16AAE9E344C082E87 /* LKJsApiExternalIMP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0631729760570AF54F2D6A255BAC983F /* LKJsApiExternalIMP-dummy.m */; };
-		C09F66531F802BA3D37D9E238FC31CE9 /* LKJsApiExternalIMP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD570719BDF5BC8AD848D0DFC172C25D /* LKJsApiExternalIMP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE3E5BDABACF174562E32F0CEDCBCADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6BC1EEB1C82D0EA74057AE237ADCDEB2 /* LKJsApiExternalIMP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D01553A046FA073AC65D6EE3B32B7413 /* LKJsApiExternalIMP-dummy.m */; };
+		6E2C45C597A0E27ADAA0B6D296A4D13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6E4E178B5A7117D0554A032596D72B52 /* DWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A61D889BF7562B818B3C09E645935 /* DWKWebView.m */; };
+		B845E01B30A781BB42C980BA3317DA3D /* InternalApis.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E386734CA682812F3BEBAA0EE8EF41D /* InternalApis.m */; };
+		C0182CA267D477D28F22C55C6774F9ED /* ZHWKProcessPoolFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = E011201DE305A2CC4626642307D26FF3 /* ZHWKProcessPoolFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8D23A31FE361039BF80AFC2AA68EE5F /* JSBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D99B1B6E9DFAB13E175448411DE72418 /* JSBUtil.m */; };
+		D071D1C7EB1C2751A579FEFA6C9B4C54 /* LKJsApiExternalIMP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F5D9606DA0A86A6D43AAE36D568430C /* LKJsApiExternalIMP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0B8B6F3D0A3A743C78969E463C3B2B6 /* Pods-LKJsApiExternalIMP_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7601B8E08BE75809D567823B495EDFBD /* Pods-LKJsApiExternalIMP_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D59CFCD257A0D2899EBE5CAAF9E6FF24 /* DSCallInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 80B9CB589BF40AC66A41D5AB497998BE /* DSCallInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC39796461E2438F14D04D13C66A68DF /* LKJsApiExternalIMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C94B19D8B73D7662ECAB1376EA25D /* LKJsApiExternalIMP.m */; };
+		E01EA43D1184D19AEE2E15A0E9BDCA78 /* DSCallInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFAC73782B26D377484BDF886C2BF37 /* DSCallInfo.m */; };
+		EB9DEEC856A0343521AFB721D05F69B9 /* TFBPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 32764C196932765476CCB1A99B669169 /* TFBPlugin.m */; };
+		F59A5B8C806E7B35BEC027EF295A4A5A /* TFBPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C19CD3CDF69EC791BDA32D8A6787F0 /* TFBPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F66427D46D65BB46470161F3D507F72B /* LKJsApiExternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD6A2B26FB4FCA07A338EC668450E50 /* LKJsApiExternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD29018F31E2DC1D9D3823C666183215 /* LKJsApiExternal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2185DC8F63F7B9DBA2A9EB1703D44B81 /* LKJsApiExternal-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		427F7A4907116E8FD17E50583A3E593C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B5974DC3D5DB656A80E5582CC4976DD9;
-			remoteInfo = LKJsApiExternalIMP;
-		};
-		7DE6DEAFF125A88FEE727A87954A05FE /* PBXContainerItemProxy */ = {
+		45FFEA4C49AE7434B869693F0C74922D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AB603F080391E94571E155F8440E3153;
 			remoteInfo = "Pods-LKJsApiExternalIMP_Example";
 		};
+		7EB200EA28E0A2C121F000525AEE9DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61AC749001DF10FDB6B83AD36D765A7E;
+			remoteInfo = LKJsApiExternal;
+		};
+		AC11250510D27E941E77F99EF90E17E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5974DC3D5DB656A80E5582CC4976DD9;
+			remoteInfo = LKJsApiExternalIMP;
+		};
+		D87540CDB307A91EDE091B4BE9A784B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61AC749001DF10FDB6B83AD36D765A7E;
+			remoteInfo = LKJsApiExternal;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04CB2C91A7F0BAE38485EDFECB7A5C08 /* Pods-LKJsApiExternalIMP_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKJsApiExternalIMP_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0631729760570AF54F2D6A255BAC983F /* LKJsApiExternalIMP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKJsApiExternalIMP-dummy.m"; sourceTree = "<group>"; };
+		04CF6D357F5F4DA8290A0D57E0D708A0 /* JSApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSApi.m; path = LKJsApiExternal/Classes/JSApi.m; sourceTree = "<group>"; };
 		0BFE4E0572CBD13402AA2E7CDC221C9D /* Pods-LKJsApiExternalIMP_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKJsApiExternalIMP_Tests-Info.plist"; sourceTree = "<group>"; };
-		10B660F02DDFD9AE19E10C6337804392 /* LKJsApiExternalIMP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKJsApiExternalIMP.debug.xcconfig; sourceTree = "<group>"; };
+		10116187EAD873262B65F2A54279C51A /* JSBUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSBUtil.h; path = LKJsApiExternal/Classes/DSBridge/JSBUtil.h; sourceTree = "<group>"; };
 		15FB818B822CAC8C9F451883900B63C9 /* Pods-LKJsApiExternalIMP_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKJsApiExternalIMP_Example-Info.plist"; sourceTree = "<group>"; };
-		16AD8C3A2676E6EC0218871EED9D7AE9 /* LKJsApiExternalIMP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKJsApiExternalIMP-prefix.pch"; sourceTree = "<group>"; };
+		1651ED9069B8AEDD42F9B992A05C5CEB /* DWKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DWKWebView.h; path = LKJsApiExternal/Classes/DSBridge/DWKWebView.h; sourceTree = "<group>"; };
+		16E3D39F5677907F527AB68FF6462159 /* LKJsApiExternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKJsApiExternal.m; path = LKJsApiExternal/Classes/LKJsApiExternal.m; sourceTree = "<group>"; };
 		16F4D1C73ECFC76DBDEF4ADD19056CE2 /* Pods-LKJsApiExternalIMP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKJsApiExternalIMP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		17848F58DB10F0C5A52F662D267F5F10 /* Pods-LKJsApiExternalIMP_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKJsApiExternalIMP_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2185DC8F63F7B9DBA2A9EB1703D44B81 /* LKJsApiExternal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKJsApiExternal-dummy.m"; sourceTree = "<group>"; };
+		255F139347710CB4AF073FE4828258E3 /* JSApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSApi.h; path = LKJsApiExternal/Classes/JSApi.h; sourceTree = "<group>"; };
+		2E386734CA682812F3BEBAA0EE8EF41D /* InternalApis.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InternalApis.m; path = LKJsApiExternal/Classes/DSBridge/InternalApis.m; sourceTree = "<group>"; };
 		3222C610A287BB666E606D2108963E2C /* Pods-LKJsApiExternalIMP_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKJsApiExternalIMP_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32764C196932765476CCB1A99B669169 /* TFBPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFBPlugin.m; path = LKJsApiExternal/Classes/TFBPlugin.m; sourceTree = "<group>"; };
+		391E2056E682755E9189068F1169E096 /* LKJsApiExternalIMP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKJsApiExternalIMP-prefix.pch"; sourceTree = "<group>"; };
+		3AC43268B93F623F692A4D4092705349 /* LKJsApiExternalIMP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKJsApiExternalIMP.debug.xcconfig; sourceTree = "<group>"; };
 		3AEB55D0B8320841D69B56543E331DE1 /* Pods-LKJsApiExternalIMP_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LKJsApiExternalIMP_Tests"; path = Pods_LKJsApiExternalIMP_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55F879390601AC6350EC4F7B2A7953E3 /* LKJsApiExternalIMP-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LKJsApiExternalIMP-Info.plist"; sourceTree = "<group>"; };
+		4AD90B7F17638498A6DA0B40F62E4FF5 /* LKJsApiExternal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKJsApiExternal-umbrella.h"; sourceTree = "<group>"; };
+		4E4BEF89A195D266641066CC74D9B790 /* LKJsApiExternal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LKJsApiExternal.modulemap; sourceTree = "<group>"; };
+		4F4C94B19D8B73D7662ECAB1376EA25D /* LKJsApiExternalIMP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKJsApiExternalIMP.m; path = LKJsApiExternalIMP/Classes/LKJsApiExternalIMP.m; sourceTree = "<group>"; };
+		562C0E735A3814F775F4989BB5C6EC55 /* LKJsApiExternal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKJsApiExternal.debug.xcconfig; sourceTree = "<group>"; };
+		5F5D9606DA0A86A6D43AAE36D568430C /* LKJsApiExternalIMP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKJsApiExternalIMP-umbrella.h"; sourceTree = "<group>"; };
+		63CD9EED974FD431E271A22BF7B407CD /* LKJsApiExternal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKJsApiExternal.release.xcconfig; sourceTree = "<group>"; };
+		7088858FD098E2E6C9781B16D8CDB8B3 /* LKJsApiExternal */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LKJsApiExternal; path = LKJsApiExternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7142AEBC31A3CC04A1C034EF543467BE /* LKJsApiExternalIMP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LKJsApiExternalIMP.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7601B8E08BE75809D567823B495EDFBD /* Pods-LKJsApiExternalIMP_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKJsApiExternalIMP_Example-umbrella.h"; sourceTree = "<group>"; };
+		79C19CD3CDF69EC791BDA32D8A6787F0 /* TFBPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFBPlugin.h; path = LKJsApiExternal/Classes/TFBPlugin.h; sourceTree = "<group>"; };
+		7A2562D6678A909C782D19D44DAA7C5E /* LKJsApiExternalIMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKJsApiExternalIMP.h; path = LKJsApiExternalIMP/Classes/LKJsApiExternalIMP.h; sourceTree = "<group>"; };
+		7D594595F9B723150CF6A9EEAF8E5364 /* dsbridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsbridge.h; path = LKJsApiExternal/Classes/DSBridge/dsbridge.h; sourceTree = "<group>"; };
+		80B9CB589BF40AC66A41D5AB497998BE /* DSCallInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSCallInfo.h; path = LKJsApiExternal/Classes/DSBridge/DSCallInfo.h; sourceTree = "<group>"; };
 		87CD97548C41E4D7FD836C3C1BE2CD6B /* Pods-LKJsApiExternalIMP_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKJsApiExternalIMP_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8AAF585E875266C6A0DA1933D00F1F9A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LKJsApiExternalIMP/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		950E9A139D11ECF5B3A5794ECD871EF0 /* InternalApis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InternalApis.h; path = LKJsApiExternal/Classes/DSBridge/InternalApis.h; sourceTree = "<group>"; };
 		9BCA9A95CE1761D1CBA31A0A92634805 /* Pods-LKJsApiExternalIMP_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LKJsApiExternalIMP_Example-dummy.m"; sourceTree = "<group>"; };
 		9C12E19FBBA2F564B753C871CB9C94CF /* Pods-LKJsApiExternalIMP_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LKJsApiExternalIMP_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F72778B6563914982E5B4C7E5F9E5B7 /* Pods-LKJsApiExternalIMP_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LKJsApiExternalIMP_Tests-dummy.m"; sourceTree = "<group>"; };
+		9F78DC6C8AB8EBAC5A96639C8DC472BD /* LKJsApiExternal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKJsApiExternal-prefix.pch"; sourceTree = "<group>"; };
 		A0626B4C9CE752065BD161167072BBE1 /* Pods-LKJsApiExternalIMP_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LKJsApiExternalIMP_Example.modulemap"; sourceTree = "<group>"; };
-		A30E8CBEA59C0381A18522315597E620 /* LKJsApiExternalIMP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LKJsApiExternalIMP.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A24CA0E6A89E5A3264F8174210689502 /* LKJsApiExternalIMP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKJsApiExternalIMP.release.xcconfig; sourceTree = "<group>"; };
 		A8438FDFBC769F90A84B08992405C6B0 /* Pods-LKJsApiExternalIMP_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKJsApiExternalIMP_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AD1623EC59478191E9F561AEC292BB2D /* LKJsApiExternalIMP */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LKJsApiExternalIMP; path = LKJsApiExternalIMP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1DFD1332519FE289A3B546453BBE61E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B2B8C98949787F756E9D270318F6B713 /* Pods-LKJsApiExternalIMP_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKJsApiExternalIMP_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BBACACE238030BD0A1020B104D0723FD /* LKJsApiExternalIMP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKJsApiExternalIMP.release.xcconfig; sourceTree = "<group>"; };
-		BD570719BDF5BC8AD848D0DFC172C25D /* LKJsApiExternalIMP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKJsApiExternalIMP-umbrella.h"; sourceTree = "<group>"; };
-		CBDDDFC7E488C40AE8B4F790F9C9179A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CE562ECA8963595402C8C02BC928FD0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B89E030970FA6C98893715E5CB58842F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B9D437AB378B2BAB4372BED197D0ED2E /* LKJsApiExternalIMP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LKJsApiExternalIMP.modulemap; sourceTree = "<group>"; };
+		BA346130FB0E58B4A4F0CF9602C25F6E /* DWKwebView+AccessoryHiding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DWKwebView+AccessoryHiding.m"; path = "LKJsApiExternal/Classes/DSBridge/DWKwebView+AccessoryHiding.m"; sourceTree = "<group>"; };
+		CA0035BB4419AA38CBD7661272E8A7D7 /* ZHWKProcessPoolFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHWKProcessPoolFactory.m; path = LKJsApiExternal/Classes/DSBridge/ZHWKProcessPoolFactory.m; sourceTree = "<group>"; };
+		CE0ADEBF25D5DDFD9BA3B4C298FCD8D0 /* LKJsApiExternalIMP-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LKJsApiExternalIMP-Info.plist"; sourceTree = "<group>"; };
+		CE8A61D889BF7562B818B3C09E645935 /* DWKWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DWKWebView.m; path = LKJsApiExternal/Classes/DSBridge/DWKWebView.m; sourceTree = "<group>"; };
 		CEC773953AAE4941911FD86153C27C8F /* Pods-LKJsApiExternalIMP_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LKJsApiExternalIMP_Example"; path = Pods_LKJsApiExternalIMP_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01553A046FA073AC65D6EE3B32B7413 /* LKJsApiExternalIMP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKJsApiExternalIMP-dummy.m"; sourceTree = "<group>"; };
+		D838E74E0F90B57770E40194D9FE4EA5 /* LKJsApiExternal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LKJsApiExternal-Info.plist"; sourceTree = "<group>"; };
+		D99B1B6E9DFAB13E175448411DE72418 /* JSBUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSBUtil.m; path = LKJsApiExternal/Classes/DSBridge/JSBUtil.m; sourceTree = "<group>"; };
+		DBD6A2B26FB4FCA07A338EC668450E50 /* LKJsApiExternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKJsApiExternal.h; path = LKJsApiExternal/Classes/LKJsApiExternal.h; sourceTree = "<group>"; };
+		DDAADBBC66576ADF584E21BC53F8F441 /* DWKwebView+AccessoryHiding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DWKwebView+AccessoryHiding.h"; path = "LKJsApiExternal/Classes/DSBridge/DWKwebView+AccessoryHiding.h"; sourceTree = "<group>"; };
+		E011201DE305A2CC4626642307D26FF3 /* ZHWKProcessPoolFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHWKProcessPoolFactory.h; path = LKJsApiExternal/Classes/DSBridge/ZHWKProcessPoolFactory.h; sourceTree = "<group>"; };
 		E16E157C9DB6A2D86179D5318A3F7B40 /* Pods-LKJsApiExternalIMP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKJsApiExternalIMP_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EBFAC73782B26D377484BDF886C2BF37 /* DSCallInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSCallInfo.m; path = LKJsApiExternal/Classes/DSBridge/DSCallInfo.m; sourceTree = "<group>"; };
 		EEBB877DCE1F1D056B25629329E802B3 /* Pods-LKJsApiExternalIMP_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKJsApiExternalIMP_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EFA2D131B724C9F12CBEF2BDCB507170 /* LKJsApiExternalIMP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LKJsApiExternalIMP.modulemap; sourceTree = "<group>"; };
 		F05D3078596BA8C802E38C930DF1B449 /* Pods-LKJsApiExternalIMP_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKJsApiExternalIMP_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2744F5826C703F7A542DE133AF8BF8EE /* Frameworks */ = {
+		437B640C524096A7D8CD91D414A22B33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A2DFD1F986F9917DA7D616438880D92 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		535A7AB0233E74CF26276BE469BB9294 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE3E5BDABACF174562E32F0CEDCBCADB /* Foundation.framework in Frameworks */,
+				307C8CD3EBFA0755049E9AF00BE4981B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +151,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				33424A09E8F4E14C731D24EF80123FEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2867190CF7C31E2C148FFB283CB48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2C45C597A0E27ADAA0B6D296A4D13F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB52ADDE3888B3664D1357F5EC8E075B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530DDB5E5BFD07E10BDEF4FC77F2CDA9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +190,45 @@
 			path = "Target Support Files/Pods-LKJsApiExternalIMP_Example";
 			sourceTree = "<group>";
 		};
+		3E528A277D07BDADE14FE5B1D6B5D88C /* LKJsApiExternalIMP */ = {
+			isa = PBXGroup;
+			children = (
+				7A2562D6678A909C782D19D44DAA7C5E /* LKJsApiExternalIMP.h */,
+				4F4C94B19D8B73D7662ECAB1376EA25D /* LKJsApiExternalIMP.m */,
+				9B64603C63AE30784F35AB37A80EC9F9 /* Pod */,
+				731A0FBADE5EC8E065F2E136C40CF486 /* Support Files */,
+			);
+			name = LKJsApiExternalIMP;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		43DF89507B544F4DB69BD7151A833E37 /* LKJsApiExternal */ = {
+			isa = PBXGroup;
+			children = (
+				7D594595F9B723150CF6A9EEAF8E5364 /* dsbridge.h */,
+				80B9CB589BF40AC66A41D5AB497998BE /* DSCallInfo.h */,
+				EBFAC73782B26D377484BDF886C2BF37 /* DSCallInfo.m */,
+				1651ED9069B8AEDD42F9B992A05C5CEB /* DWKWebView.h */,
+				CE8A61D889BF7562B818B3C09E645935 /* DWKWebView.m */,
+				DDAADBBC66576ADF584E21BC53F8F441 /* DWKwebView+AccessoryHiding.h */,
+				BA346130FB0E58B4A4F0CF9602C25F6E /* DWKwebView+AccessoryHiding.m */,
+				950E9A139D11ECF5B3A5794ECD871EF0 /* InternalApis.h */,
+				2E386734CA682812F3BEBAA0EE8EF41D /* InternalApis.m */,
+				255F139347710CB4AF073FE4828258E3 /* JSApi.h */,
+				04CF6D357F5F4DA8290A0D57E0D708A0 /* JSApi.m */,
+				10116187EAD873262B65F2A54279C51A /* JSBUtil.h */,
+				D99B1B6E9DFAB13E175448411DE72418 /* JSBUtil.m */,
+				DBD6A2B26FB4FCA07A338EC668450E50 /* LKJsApiExternal.h */,
+				16E3D39F5677907F527AB68FF6462159 /* LKJsApiExternal.m */,
+				79C19CD3CDF69EC791BDA32D8A6787F0 /* TFBPlugin.h */,
+				32764C196932765476CCB1A99B669169 /* TFBPlugin.m */,
+				E011201DE305A2CC4626642307D26FF3 /* ZHWKProcessPoolFactory.h */,
+				CA0035BB4419AA38CBD7661272E8A7D7 /* ZHWKProcessPoolFactory.m */,
+				ADCE70549376996C6BFBE498A0BF9214 /* Support Files */,
+			);
+			path = LKJsApiExternal;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,22 +237,60 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		57CC27E25C98CADD0328E9FDB23B6610 /* Development Pods */ = {
+		731A0FBADE5EC8E065F2E136C40CF486 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EB07899EED9726CC40E97E9E7290C0BE /* LKJsApiExternalIMP */,
+				B9D437AB378B2BAB4372BED197D0ED2E /* LKJsApiExternalIMP.modulemap */,
+				D01553A046FA073AC65D6EE3B32B7413 /* LKJsApiExternalIMP-dummy.m */,
+				CE0ADEBF25D5DDFD9BA3B4C298FCD8D0 /* LKJsApiExternalIMP-Info.plist */,
+				391E2056E682755E9189068F1169E096 /* LKJsApiExternalIMP-prefix.pch */,
+				5F5D9606DA0A86A6D43AAE36D568430C /* LKJsApiExternalIMP-umbrella.h */,
+				3AC43268B93F623F692A4D4092705349 /* LKJsApiExternalIMP.debug.xcconfig */,
+				A24CA0E6A89E5A3264F8174210689502 /* LKJsApiExternalIMP.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LKJsApiExternalIMP";
 			sourceTree = "<group>";
 		};
-		627296C8B5D2A1D99D3B6F524C5BC698 /* Pod */ = {
+		88C29CFC4584117DAA4FB059696FC52F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CE562ECA8963595402C8C02BC928FD0B /* LICENSE */,
-				A30E8CBEA59C0381A18522315597E620 /* LKJsApiExternalIMP.podspec */,
-				CBDDDFC7E488C40AE8B4F790F9C9179A /* README.md */,
+				43DF89507B544F4DB69BD7151A833E37 /* LKJsApiExternal */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B64603C63AE30784F35AB37A80EC9F9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B1DFD1332519FE289A3B546453BBE61E /* LICENSE */,
+				7142AEBC31A3CC04A1C034EF543467BE /* LKJsApiExternalIMP.podspec */,
+				B89E030970FA6C98893715E5CB58842F /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		ADCE70549376996C6BFBE498A0BF9214 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E4BEF89A195D266641066CC74D9B790 /* LKJsApiExternal.modulemap */,
+				2185DC8F63F7B9DBA2A9EB1703D44B81 /* LKJsApiExternal-dummy.m */,
+				D838E74E0F90B57770E40194D9FE4EA5 /* LKJsApiExternal-Info.plist */,
+				9F78DC6C8AB8EBAC5A96639C8DC472BD /* LKJsApiExternal-prefix.pch */,
+				4AD90B7F17638498A6DA0B40F62E4FF5 /* LKJsApiExternal-umbrella.h */,
+				562C0E735A3814F775F4989BB5C6EC55 /* LKJsApiExternal.debug.xcconfig */,
+				63CD9EED974FD431E271A22BF7B407CD /* LKJsApiExternal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LKJsApiExternal";
+			sourceTree = "<group>";
+		};
+		BA1F30233DEBC323CA28DBA5E883EFBE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E528A277D07BDADE14FE5B1D6B5D88C /* LKJsApiExternalIMP */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CCDC914E25D5412EF563B5BDFA244FB8 /* Pods-LKJsApiExternalIMP_Tests */ = {
@@ -163,21 +313,12 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				57CC27E25C98CADD0328E9FDB23B6610 /* Development Pods */,
+				BA1F30233DEBC323CA28DBA5E883EFBE /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				CF8B398797F1267B6E88088E7AF53013 /* Products */,
+				88C29CFC4584117DAA4FB059696FC52F /* Pods */,
+				D84751FB85FC57153C00E7C6ED1021FB /* Products */,
 				E6B7BB1FB7A0B0F0210AF71ABBA94548 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF8B398797F1267B6E88088E7AF53013 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AD1623EC59478191E9F561AEC292BB2D /* LKJsApiExternalIMP */,
-				CEC773953AAE4941911FD86153C27C8F /* Pods-LKJsApiExternalIMP_Example */,
-				3AEB55D0B8320841D69B56543E331DE1 /* Pods-LKJsApiExternalIMP_Tests */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -188,19 +329,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9FC204A81AA682D6285CB4C95DCD285 /* Support Files */ = {
+		D84751FB85FC57153C00E7C6ED1021FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EFA2D131B724C9F12CBEF2BDCB507170 /* LKJsApiExternalIMP.modulemap */,
-				0631729760570AF54F2D6A255BAC983F /* LKJsApiExternalIMP-dummy.m */,
-				55F879390601AC6350EC4F7B2A7953E3 /* LKJsApiExternalIMP-Info.plist */,
-				16AD8C3A2676E6EC0218871EED9D7AE9 /* LKJsApiExternalIMP-prefix.pch */,
-				BD570719BDF5BC8AD848D0DFC172C25D /* LKJsApiExternalIMP-umbrella.h */,
-				10B660F02DDFD9AE19E10C6337804392 /* LKJsApiExternalIMP.debug.xcconfig */,
-				BBACACE238030BD0A1020B104D0723FD /* LKJsApiExternalIMP.release.xcconfig */,
+				7088858FD098E2E6C9781B16D8CDB8B3 /* LKJsApiExternal */,
+				AD1623EC59478191E9F561AEC292BB2D /* LKJsApiExternalIMP */,
+				CEC773953AAE4941911FD86153C27C8F /* Pods-LKJsApiExternalIMP_Example */,
+				3AEB55D0B8320841D69B56543E331DE1 /* Pods-LKJsApiExternalIMP_Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LKJsApiExternalIMP";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		E6B7BB1FB7A0B0F0210AF71ABBA94548 /* Targets Support Files */ = {
@@ -212,20 +349,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EB07899EED9726CC40E97E9E7290C0BE /* LKJsApiExternalIMP */ = {
-			isa = PBXGroup;
-			children = (
-				8AAF585E875266C6A0DA1933D00F1F9A /* ReplaceMe.m */,
-				627296C8B5D2A1D99D3B6F524C5BC698 /* Pod */,
-				D9FC204A81AA682D6285CB4C95DCD285 /* Support Files */,
-			);
-			name = LKJsApiExternalIMP;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2B783399266366801049D0F763204BD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D51935ADE61B20C339D0C4C9ABCAFD2 /* LKJsApiExternalIMP.h in Headers */,
+				D071D1C7EB1C2751A579FEFA6C9B4C54 /* LKJsApiExternalIMP-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		349351E97BE7B684F4E854E6FB195EA0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,38 +369,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C658B234A0E1C7391A3896B5A010EC2D /* Headers */ = {
+		53E72EE12556B0AE225D64FF7DEEF545 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60DCF9B0A8FA1ED202B2EE702CFF2366 /* Pods-LKJsApiExternalIMP_Example-umbrella.h in Headers */,
+				4FF1A4C0D4C822E3BC0F464F5C6A8D60 /* dsbridge.h in Headers */,
+				D59CFCD257A0D2899EBE5CAAF9E6FF24 /* DSCallInfo.h in Headers */,
+				6622B60F1C270880700AFCBBC44B7D93 /* DWKWebView.h in Headers */,
+				201AFD6A57E2F2F84CF4C5F761287DC1 /* DWKwebView+AccessoryHiding.h in Headers */,
+				23E81CF671FD655E0DE931540C8180DF /* InternalApis.h in Headers */,
+				41074A28CC57171299A997F68E482D23 /* JSApi.h in Headers */,
+				59BB7CCFD2431FE7008188CDB814EDA1 /* JSBUtil.h in Headers */,
+				F66427D46D65BB46470161F3D507F72B /* LKJsApiExternal.h in Headers */,
+				5D9D4DCB1DC3DC5131146F6DD938A437 /* LKJsApiExternal-umbrella.h in Headers */,
+				F59A5B8C806E7B35BEC027EF295A4A5A /* TFBPlugin.h in Headers */,
+				C0182CA267D477D28F22C55C6774F9ED /* ZHWKProcessPoolFactory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBA4506595F450A578193AA5D9380BEF /* Headers */ = {
+		8D907EBDE5BD7F849B51607F966B1978 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C09F66531F802BA3D37D9E238FC31CE9 /* LKJsApiExternalIMP-umbrella.h in Headers */,
+				D0B8B6F3D0A3A743C78969E463C3B2B6 /* Pods-LKJsApiExternalIMP_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AB603F080391E94571E155F8440E3153 /* Pods-LKJsApiExternalIMP_Example */ = {
+		61AC749001DF10FDB6B83AD36D765A7E /* LKJsApiExternal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9DB26B2E9FF7F0C09FC85CD06E3C963 /* Build configuration list for PBXNativeTarget "Pods-LKJsApiExternalIMP_Example" */;
+			buildConfigurationList = CE06AFE5400F949E2359FE85FDF95BA4 /* Build configuration list for PBXNativeTarget "LKJsApiExternal" */;
 			buildPhases = (
-				C658B234A0E1C7391A3896B5A010EC2D /* Headers */,
-				19DB98CFE198FB8A7F2574B9B0ED82B7 /* Sources */,
-				535A7AB0233E74CF26276BE469BB9294 /* Frameworks */,
-				2AE9582EF580EC51B8B5A6B42ED58D2B /* Resources */,
+				53E72EE12556B0AE225D64FF7DEEF545 /* Headers */,
+				C453FBF800B558E5015BD154A5650849 /* Sources */,
+				437B640C524096A7D8CD91D414A22B33 /* Frameworks */,
+				21AD969F42C0C3E3B295A4D9C1301F4C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2CEDA37A30E2E0CB8AA023BE748BA963 /* PBXTargetDependency */,
+			);
+			name = LKJsApiExternal;
+			productName = LKJsApiExternal;
+			productReference = 7088858FD098E2E6C9781B16D8CDB8B3 /* LKJsApiExternal */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB603F080391E94571E155F8440E3153 /* Pods-LKJsApiExternalIMP_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255C7B0E947E6859872A8B8DBE043812 /* Build configuration list for PBXNativeTarget "Pods-LKJsApiExternalIMP_Example" */;
+			buildPhases = (
+				8D907EBDE5BD7F849B51607F966B1978 /* Headers */,
+				77F50EE7A7AD7F490FE3E5D3F150A703 /* Sources */,
+				FB52ADDE3888B3664D1357F5EC8E075B /* Frameworks */,
+				078F28EF53059E44414A0D6C67EBCBA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437A47704DF09070B252A08E2BD31D2F /* PBXTargetDependency */,
+				855CE75C516533ED7BDAA0973296D900 /* PBXTargetDependency */,
 			);
 			name = "Pods-LKJsApiExternalIMP_Example";
 			productName = Pods_LKJsApiExternalIMP_Example;
@@ -274,16 +438,17 @@
 		};
 		B5974DC3D5DB656A80E5582CC4976DD9 /* LKJsApiExternalIMP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A71EF8E1583FE7640B4C741C4C92ECC /* Build configuration list for PBXNativeTarget "LKJsApiExternalIMP" */;
+			buildConfigurationList = 0C67E60D1472B60EC05507EED9B2BA61 /* Build configuration list for PBXNativeTarget "LKJsApiExternalIMP" */;
 			buildPhases = (
-				CBA4506595F450A578193AA5D9380BEF /* Headers */,
-				7C0BC02D6B7BAF73B3B6979225757F55 /* Sources */,
-				2744F5826C703F7A542DE133AF8BF8EE /* Frameworks */,
-				59EB978FD1FD202E4F80F7527E1CDD8F /* Resources */,
+				2B783399266366801049D0F763204BD6 /* Headers */,
+				02D15B108366A16B822C73179193DA33 /* Sources */,
+				ACF2867190CF7C31E2C148FFB283CB48 /* Frameworks */,
+				4F8A467062DF13786315D55D4C3D787E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5596FBB584127844CFD5DF03EBC2C3B0 /* PBXTargetDependency */,
 			);
 			name = LKJsApiExternalIMP;
 			productName = LKJsApiExternalIMP;
@@ -302,7 +467,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A95427CAB07723B3FD8ED21C9EFB4CF1 /* PBXTargetDependency */,
+				D7A0A373FD2827AB3B4E362610FEA590 /* PBXTargetDependency */,
 			);
 			name = "Pods-LKJsApiExternalIMP_Tests";
 			productName = Pods_LKJsApiExternalIMP_Tests;
@@ -327,10 +492,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CF8B398797F1267B6E88088E7AF53013 /* Products */;
+			productRefGroup = D84751FB85FC57153C00E7C6ED1021FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				61AC749001DF10FDB6B83AD36D765A7E /* LKJsApiExternal */,
 				B5974DC3D5DB656A80E5582CC4976DD9 /* LKJsApiExternalIMP */,
 				AB603F080391E94571E155F8440E3153 /* Pods-LKJsApiExternalIMP_Example */,
 				D087DBAA6385EF54367F97C369027E67 /* Pods-LKJsApiExternalIMP_Tests */,
@@ -339,14 +505,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2AE9582EF580EC51B8B5A6B42ED58D2B /* Resources */ = {
+		078F28EF53059E44414A0D6C67EBCBA6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59EB978FD1FD202E4F80F7527E1CDD8F /* Resources */ = {
+		21AD969F42C0C3E3B295A4D9C1301F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8A467062DF13786315D55D4C3D787E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +536,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		19DB98CFE198FB8A7F2574B9B0ED82B7 /* Sources */ = {
+		02D15B108366A16B822C73179193DA33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79B9ED019B80421C1B715D6B1CF049B9 /* Pods-LKJsApiExternalIMP_Example-dummy.m in Sources */,
+				DC39796461E2438F14D04D13C66A68DF /* LKJsApiExternalIMP.m in Sources */,
+				6BC1EEB1C82D0EA74057AE237ADCDEB2 /* LKJsApiExternalIMP-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C0BC02D6B7BAF73B3B6979225757F55 /* Sources */ = {
+		77F50EE7A7AD7F490FE3E5D3F150A703 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9F0EBF15DEF82E16AAE9E344C082E87 /* LKJsApiExternalIMP-dummy.m in Sources */,
-				186AAFA350F47613E676B5EA14C9BD7D /* ReplaceMe.m in Sources */,
+				04860E5BEA15D35B9440417675F99357 /* Pods-LKJsApiExternalIMP_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,27 +561,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C453FBF800B558E5015BD154A5650849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01EA43D1184D19AEE2E15A0E9BDCA78 /* DSCallInfo.m in Sources */,
+				6E4E178B5A7117D0554A032596D72B52 /* DWKWebView.m in Sources */,
+				27AD2C0099BCC6A6D31EF09AA827DED2 /* DWKwebView+AccessoryHiding.m in Sources */,
+				B845E01B30A781BB42C980BA3317DA3D /* InternalApis.m in Sources */,
+				0E08CEA26F43C5E8EF5B2DC4FC637C85 /* JSApi.m in Sources */,
+				C8D23A31FE361039BF80AFC2AA68EE5F /* JSBUtil.m in Sources */,
+				0D249BDBBA39AA64FCCB2961F40B7589 /* LKJsApiExternal.m in Sources */,
+				FD29018F31E2DC1D9D3823C666183215 /* LKJsApiExternal-dummy.m in Sources */,
+				EB9DEEC856A0343521AFB721D05F69B9 /* TFBPlugin.m in Sources */,
+				4D55DCE23B5CED6A035427AE716325E3 /* ZHWKProcessPoolFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2CEDA37A30E2E0CB8AA023BE748BA963 /* PBXTargetDependency */ = {
+		437A47704DF09070B252A08E2BD31D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LKJsApiExternal;
+			target = 61AC749001DF10FDB6B83AD36D765A7E /* LKJsApiExternal */;
+			targetProxy = 7EB200EA28E0A2C121F000525AEE9DAA /* PBXContainerItemProxy */;
+		};
+		5596FBB584127844CFD5DF03EBC2C3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LKJsApiExternal;
+			target = 61AC749001DF10FDB6B83AD36D765A7E /* LKJsApiExternal */;
+			targetProxy = D87540CDB307A91EDE091B4BE9A784B2 /* PBXContainerItemProxy */;
+		};
+		855CE75C516533ED7BDAA0973296D900 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LKJsApiExternalIMP;
 			target = B5974DC3D5DB656A80E5582CC4976DD9 /* LKJsApiExternalIMP */;
-			targetProxy = 427F7A4907116E8FD17E50583A3E593C /* PBXContainerItemProxy */;
+			targetProxy = AC11250510D27E941E77F99EF90E17E8 /* PBXContainerItemProxy */;
 		};
-		A95427CAB07723B3FD8ED21C9EFB4CF1 /* PBXTargetDependency */ = {
+		D7A0A373FD2827AB3B4E362610FEA590 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LKJsApiExternalIMP_Example";
 			target = AB603F080391E94571E155F8440E3153 /* Pods-LKJsApiExternalIMP_Example */;
-			targetProxy = 7DE6DEAFF125A88FEE727A87954A05FE /* PBXContainerItemProxy */;
+			targetProxy = 45FFEA4C49AE7434B869693F0C74922D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0CA61DF1307AA2EC40045EA763FCF119 /* Release */ = {
+		2FF9F16E8913B44060916EC3AAA2387C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBACACE238030BD0A1020B104D0723FD /* LKJsApiExternalIMP.release.xcconfig */;
+			baseConfigurationReference = 562C0E735A3814F775F4989BB5C6EC55 /* LKJsApiExternal.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -419,52 +621,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LKJsApiExternalIMP/LKJsApiExternalIMP-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LKJsApiExternalIMP/LKJsApiExternalIMP-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LKJsApiExternal/LKJsApiExternal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LKJsApiExternal/LKJsApiExternal-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LKJsApiExternalIMP/LKJsApiExternalIMP.modulemap";
-				PRODUCT_MODULE_NAME = LKJsApiExternalIMP;
-				PRODUCT_NAME = LKJsApiExternalIMP;
+				MODULEMAP_FILE = "Target Support Files/LKJsApiExternal/LKJsApiExternal.modulemap";
+				PRODUCT_MODULE_NAME = LKJsApiExternal;
+				PRODUCT_NAME = LKJsApiExternal;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		33CED4C99AF2FF180EE942687A36A835 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEBB877DCE1F1D056B25629329E802B3 /* Pods-LKJsApiExternalIMP_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LKJsApiExternalIMP_Example/Pods-LKJsApiExternalIMP_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LKJsApiExternalIMP_Example/Pods-LKJsApiExternalIMP_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -491,40 +659,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LKJsApiExternalIMP_Tests/Pods-LKJsApiExternalIMP_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6AC033565FEC6C1CE908589868F0E42D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17848F58DB10F0C5A52F662D267F5F10 /* Pods-LKJsApiExternalIMP_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LKJsApiExternalIMP_Example/Pods-LKJsApiExternalIMP_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LKJsApiExternalIMP_Example/Pods-LKJsApiExternalIMP_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -594,16 +728,47 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		C772C96AB628D752C3C423246DC934AC /* Debug */ = {
+		8C1FA21BFBEBE8D678299764FFFDA13B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10B660F02DDFD9AE19E10C6337804392 /* LKJsApiExternalIMP.debug.xcconfig */;
+			baseConfigurationReference = 63CD9EED974FD431E271A22BF7B407CD /* LKJsApiExternal.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LKJsApiExternal/LKJsApiExternal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LKJsApiExternal/LKJsApiExternal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LKJsApiExternal/LKJsApiExternal.modulemap";
+				PRODUCT_MODULE_NAME = LKJsApiExternal;
+				PRODUCT_NAME = LKJsApiExternal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C0C28B50FC780C1B9C86D8AA909CF642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC43268B93F623F692A4D4092705349 /* LKJsApiExternalIMP.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -617,7 +782,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LKJsApiExternalIMP/LKJsApiExternalIMP-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LKJsApiExternalIMP/LKJsApiExternalIMP-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LKJsApiExternalIMP/LKJsApiExternalIMP.modulemap";
 				PRODUCT_MODULE_NAME = LKJsApiExternalIMP;
@@ -631,6 +796,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		C61A0D927ECA88FBDAF3E33ABD8214FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24CA0E6A89E5A3264F8174210689502 /* LKJsApiExternalIMP.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LKJsApiExternalIMP/LKJsApiExternalIMP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LKJsApiExternalIMP/LKJsApiExternalIMP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LKJsApiExternalIMP/LKJsApiExternalIMP.modulemap";
+				PRODUCT_MODULE_NAME = LKJsApiExternalIMP;
+				PRODUCT_NAME = LKJsApiExternalIMP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -698,6 +895,39 @@
 			};
 			name = Debug;
 		};
+		DE46009B3AEEC50FC79DC6FDC04B6BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBB877DCE1F1D056B25629329E802B3 /* Pods-LKJsApiExternalIMP_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LKJsApiExternalIMP_Example/Pods-LKJsApiExternalIMP_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LKJsApiExternalIMP_Example/Pods-LKJsApiExternalIMP_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E5094BE116E15E51A38FE5BC39B53413 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 16F4D1C73ECFC76DBDEF4ADD19056CE2 /* Pods-LKJsApiExternalIMP_Tests.debug.xcconfig */;
@@ -731,9 +961,61 @@
 			};
 			name = Debug;
 		};
+		E582CA8DAA826D956CA354AFCED42440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17848F58DB10F0C5A52F662D267F5F10 /* Pods-LKJsApiExternalIMP_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LKJsApiExternalIMP_Example/Pods-LKJsApiExternalIMP_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LKJsApiExternalIMP_Example/Pods-LKJsApiExternalIMP_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C67E60D1472B60EC05507EED9B2BA61 /* Build configuration list for PBXNativeTarget "LKJsApiExternalIMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C28B50FC780C1B9C86D8AA909CF642 /* Debug */,
+				C61A0D927ECA88FBDAF3E33ABD8214FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255C7B0E947E6859872A8B8DBE043812 /* Build configuration list for PBXNativeTarget "Pods-LKJsApiExternalIMP_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE46009B3AEEC50FC79DC6FDC04B6BB6 /* Debug */,
+				E582CA8DAA826D956CA354AFCED42440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -752,20 +1034,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A71EF8E1583FE7640B4C741C4C92ECC /* Build configuration list for PBXNativeTarget "LKJsApiExternalIMP" */ = {
+		CE06AFE5400F949E2359FE85FDF95BA4 /* Build configuration list for PBXNativeTarget "LKJsApiExternal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C772C96AB628D752C3C423246DC934AC /* Debug */,
-				0CA61DF1307AA2EC40045EA763FCF119 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B9DB26B2E9FF7F0C09FC85CD06E3C963 /* Build configuration list for PBXNativeTarget "Pods-LKJsApiExternalIMP_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				33CED4C99AF2FF180EE942687A36A835 /* Debug */,
-				6AC033565FEC6C1CE908589868F0E42D /* Release */,
+				2FF9F16E8913B44060916EC3AAA2387C /* Debug */,
+				8C1FA21BFBEBE8D678299764FFFDA13B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
