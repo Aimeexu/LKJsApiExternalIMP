@@ -1,0 +1,22 @@
+{
+  "name": "LKJsApiExternalIMP",
+  "version": "0.1.0",
+  "summary": "A short description of LKJsApiExternalIMP.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Aimeexu/LKJsApiExternalIMP",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Aimeexu": "1062303846@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Aimeexu/LKJsApiExternalIMP.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LKJsApiExternalIMP/Classes/**/*"
+}

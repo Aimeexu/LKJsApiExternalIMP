@@ -1,0 +1,16 @@
+PODS:
+  - LKJsApiExternalIMP (0.1.0)
+
+DEPENDENCIES:
+  - LKJsApiExternalIMP (from `../`)
+
+EXTERNAL SOURCES:
+  LKJsApiExternalIMP:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LKJsApiExternalIMP: ea09d3443d7f24dd72308a35871529ba71af77f0
+
+PODFILE CHECKSUM: f3e7dfdb7e23e70e413c350e4a64951b8ed39f33
+
+COCOAPODS: 1.11.3
